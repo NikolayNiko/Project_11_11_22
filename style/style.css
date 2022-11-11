@@ -1,0 +1,187 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+} */
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 125rem;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin: 1.3rem auto 1.5rem;
+}
+.header__ol{
+    display: flex;
+    gap: 6.2rem;
+}
+.header__nav-link{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.button{
+    height: 4rem;
+    width: 15.7rem;
+    border-radius: 2rem;
+    background: #6F2CFF;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #fff;  
+}
+.button:hover{
+    background:#8856f5;
+    transition: 2s;
+    cursor: pointer;
+}
+.main{
+    background: #F6BED9;
+    padding: 5.9rem 0 5.8rem;
+}
+.main__h1{
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 6.1rem;
+    max-width: 47rem;
+}
+.main__h1-colorfont{
+    color: #6F2DFF;
+}
+.main__text{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    max-width: 43.8rem;
+    margin: 1.8rem 0;
+}
+.main__h1p-bold{
+    font-weight: 700;
+}
+.main__input{
+    height: 4.5rem;
+    width: 26.8rem;
+    border: .1rem solid #d87e2b;
+    border-radius: 2.8rem;
+    padding-left: 2.6rem;
+}
+.main__input::placeholder{
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: rgba(0, 0, 0, 0.27);
+}
+.main__input:focus{
+    outline: none;
+}
+.main__button{
+    height: 4.5rem;
+    width: 18.7rem;
+    margin-left: .9rem;
+}
+.grow{
+    margin: 13.6rem auto;
+}
+.grow__title{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: #1C1C1C;
+    max-width: 41.5rem;
+}
+.grow__flex{
+    display: flex;
+    gap: 3.4rem;
+}
+.grow__element{
+    max-width: 33.3rem;
+    text-align: center;
+}
+.grow__item{
+    padding: 3.5rem 0 8.5rem;
+    box-shadow: 0px .2rem .4rem rgba(192, 192, 192, 0.5);
+    border-radius: 0px 0px 0.7rem 0.7rem;
+}
+.grow__h3{
+    font-size: 2.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 2.8rem;
+}
+.grow__p{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #6F2CFF;
+    max-width: 21.9rem;
+    margin: 0 auto;
+}
+.qca{
+    max-height: 34.9rem;
+    margin-bottom: 13.9rem;
+}
+.qca__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-bottom: 7.9rem;
+}
+.qca__h4{
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.6rem;
+}
+.qca__logo{
+    margin-bottom:  4.2rem;
+    margin-left: 13.6rem;
+}
+.qca__p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #000000;
+    max-width: 31.6rem;
+    max-height: 6.6rem;
+}
+
+.footer{
+    background: #20003C;
+    padding: 5.8rem 0 5.8rem;
+        
+}
+.footer__ol{
+    display: flex;
+    gap: 7.4rem;
+    
+}
+.footer__nav-link{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.footer__button{
+    height: 4rem;
+    width: 15.7rem;
+    border-radius: 2rem;
+    background: #6F2CFF;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #fff; 
+}
